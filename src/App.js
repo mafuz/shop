@@ -185,7 +185,7 @@ function App() {
         <main>
           <Container className="mt-3 text-black">
             <Routes>
-              <Route path="/home" element={<HomeScreen />} />
+              <Route path="/" element={<HomeScreen />} />
               <Route path="/customeradd" element={<AddCustomerScreen />} />
               <Route path="/cart" element={<CartScreen />} />
               <Route path="/product/:id" element={<ProductScreen />} />
