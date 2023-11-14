@@ -123,13 +123,13 @@ function Product(props) {
             {product.title}
           </Card.Title>
         </Link>
-        {rev?.map((r) => (
-          <Rating
-            key={product.product_id}
-            rating={r.rating}
-            num_review={r.num_review}
-          ></Rating>
-        ))}
+        // {rev?.map((r) => (
+        //   <Rating
+        //     key={product.product_id}
+        //     rating={r.rating}
+        //     num_review={r.num_review}
+        //   ></Rating>
+        // ))}
         {/* <Rating rating={product.rating} numReviews={product.num_reviews} /> */}
         <Card.Text className="desc-text-truncate">
           {product.description}
